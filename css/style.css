@@ -663,4 +663,6 @@ footer {
 .hero-img {
   border-radius: 100%;
   margin: 1rem;
+  width: 160px;
+  height: 160px;
 }
