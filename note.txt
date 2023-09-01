@@ -1,0 +1,87 @@
+
+      <!-- text -->
+      <section>
+        <div class="root content-body pad">
+          <h2>Our Brands!</h2>
+          <!-- logo carousel -->
+          <div class="carousel-container" id="carousel-logo-1">
+            <div class="slide-container slide-logo-container">
+              <!-- slide -->
+              <div class="slide slide-logo show">
+                <div class="slide-logo-sub-container">
+                  <img
+                    class="slide-logo-item"
+                    src="./assets/icons/l1.svg"
+                    alt=""
+                  />
+                  <img
+                    class="slide-logo-item"
+                    src="./assets/icons/l2.svg"
+                    alt=""
+                  />
+                  <img
+                    class="slide-logo-item"
+                    src="./assets/icons/l3.svg"
+                    alt=""
+                  />
+                  <img
+                    class="slide-logo-item"
+                    src="./assets/icons/l4.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <!-- slide -->
+              <div class="slide slide-logo">
+                <div class="slide-logo-sub-container">
+                  <img
+                    class="slide-logo-item"
+                    src="./assets/icons/l5.svg"
+                    alt=""
+                  />
+                  <img
+                    class="slide-logo-item"
+                    src="./assets/icons/l6.svg"
+                    alt=""
+                  />
+                  <img
+                    class="slide-logo-item"
+                    src="./assets/icons/l7.svg"
+                    alt=""
+                  />
+                  <img
+                    class="slide-logo-item"
+                    src="./assets/icons/l8.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <!-- slide -->
+              <div class="slide slide-logo">
+                <div class="slide-logo-sub-container">
+                  <img
+                    class="slide-logo-item"
+                    src="./assets/icons/l9.svg"
+                    alt=""
+                  />
+                  <img
+                    class="slide-logo-item"
+                    src="./assets/icons/l10.svg"
+                    alt=""
+                  />
+                  <img
+                    class="slide-logo-item"
+                    src="./assets/icons/l11.svg"
+                    alt=""
+                  />
+                  <img
+                    class="slide-logo-item"
+                    src="./assets/icons/l12.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
