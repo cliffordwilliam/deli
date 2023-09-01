@@ -62,7 +62,8 @@ a {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Chivo", sans-serif;
+  background-image: url(../assets/images/bg.png);
 }
 
 /* header */
@@ -663,6 +664,6 @@ footer {
 .hero-img {
   border-radius: 100%;
   margin: 1rem;
-  width: 160px;
-  height: 160px;
+  width: 300px;
+  height: 300px;
 }
