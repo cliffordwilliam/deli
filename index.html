@@ -6,10 +6,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css" />
 
+    <link rel="icon" href="tl.png" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Chivo:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -19,9 +21,12 @@
       <!-- nav -->
       <nav>
         <!-- logo -->
-        <!-- <a class="nav-logo-link" href="#">
-          <img class="nav-logo" src="./assets/icons/l3.svg" alt=""
-        /></a> -->
+        <a class="nav-logo-link" href="#">
+          <img
+            class="nav-logo"
+            src="./assets/images/light_header_deli_logo.svg"
+            alt=""
+        /></a>
         <!-- burger -->
         <label class="burger-label" for="burger-checkbox">
           <img class="burger" src="./assets/icons/b.svg" alt="" />
@@ -46,22 +51,22 @@
     </header>
     <main>
       <!-- hero -->
-      <section class="hero">
+      <!-- <section class="hero">
         <div class="hero-text-container">
           <img class="hero-img" src="./assets/images/l.svg" alt="" />
         </div>
-      </section>
+      </section> -->
       <!-- text -->
-      <section class="no-pad">
+      <!-- <section class="no-pad">
         <div class="root content-body pad text-center">
           <hr />
           <p>YOUR F&B SUPPLIER SOLUTIONS</p>
           <hr />
         </div>
-      </section>
+      </section> -->
       <!-- carousel -->
-      <section>
-        <div class="root pad">
+      <section class="no-pad">
+        <div>
           <!-- carousel -->
           <div class="carousel-container" id="carousel-1">
             <div class="slide-container">
@@ -124,10 +129,100 @@
           </div>
         </div>
       </section>
+
+      <!-- text -->
+      <section>
+        <div class="content-body">
+          <!-- logo carousel -->
+          <div class="carousel-container" id="carousel-logo-1">
+            <div class="slide-container slide-logo-container">
+              <!-- slide -->
+              <div class="slide slide-logo show">
+                <div class="slide-logo-sub-container">
+                  <img
+                    class="slide-logo-item"
+                    src="./assets/images/Ramadhanhamper.webp"
+                    alt=""
+                  />
+                  <img
+                    class="slide-logo-item"
+                    src="./assets/images/CNYhamper.webp"
+                    alt=""
+                  />
+                  <img
+                    class="slide-logo-item"
+                    src="./assets/images/HAMPERSORANGEBIASA.webp"
+                    alt=""
+                  />
+                  <img
+                    class="slide-logo-item"
+                    src="./assets/images/HAMPERSORANGESOUVENIRS.webp"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <!-- slide -->
+              <div class="slide slide-logo">
+                <div class="slide-logo-sub-container">
+                  <img
+                    class="slide-logo-item"
+                    src="./assets/images/HAMPERSTRANSPARAN2_short.webp"
+                    alt=""
+                  />
+                  <img
+                    class="slide-logo-item"
+                    src="./assets/images/MIXBRO(1).webp"
+                    alt=""
+                  />
+                  <img
+                    class="slide-logo-item"
+                    src="./assets/images/BROWNIESALMOND.jpeg"
+                    alt=""
+                  />
+                  <img
+                    class="slide-logo-item"
+                    src="./assets/images/BROWNIESCHOCOCHIPS.jpeg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <!-- slide -->
+              <div class="slide slide-logo">
+                <div class="slide-logo-sub-container">
+                  <img
+                    class="slide-logo-item"
+                    src="./assets/images/BROWNIESMINIALMOND.jpeg"
+                    alt=""
+                  />
+                  <img
+                    class="slide-logo-item"
+                    src="./assets/images/BROWNIESMINICHOCOCHIPS.jpeg"
+                    alt=""
+                  />
+                  <img
+                    class="slide-logo-item"
+                    src="./assets/images/westjava.jpg"
+                    alt=""
+                  />
+                  <img
+                    class="slide-logo-item"
+                    src="./assets/images/yunan.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- card container-->
       <section>
         <div class="root pad content-body">
-          <h2>Hampers</h2>
+          <h2 class="lined">
+            <hr />
+            <span>HAMPERS</span>
+            <hr />
+          </h2>
         </div>
         <!-- card container-->
         <div class="card-container grid-33">
@@ -222,7 +317,11 @@
       <!-- card container-->
       <section>
         <div class="root pad content-body">
-          <h2>Brownies</h2>
+          <h2 class="lined">
+            <hr />
+            <span>BROWNIES</span>
+            <hr />
+          </h2>
         </div>
         <!-- card container-->
         <div class="card-container grid-33">
@@ -317,7 +416,11 @@
       <!-- card container-->
       <section>
         <div class="root pad content-body">
-          <h2>Coffee</h2>
+          <h2 class="lined">
+            <hr />
+            <span>COFFEE</span>
+            <hr />
+          </h2>
         </div>
         <!-- card container-->
         <div class="card-container grid-33">
@@ -353,34 +456,47 @@
       </section>
     </main>
     <footer>
-      <section class="root content-body">
-        <hr />
-        <div class="grid-50 pad">
-          <div class="content-body text-center">
-            <h2 class="footer-heading">Follow Us</h2>
-            <div class="footer-icon-con">
-              <img
-                class="footer-icon"
-                src="./assets/icons/facebook.svg"
-                alt=""
-              />
-              <img
-                class="footer-icon"
-                src="./assets/icons/instagram.svg"
-                alt=""
-              />
-            </div>
+      <section class="root">
+        <div class="grid-33 pad">
+          <div class="content-body text-white">
+            <img
+              class="logo-small"
+              src="./assets/images/light_header_deli_logo.svg"
+              alt=""
+            />
+            <p>
+              60 Paya Lebar Road, <br />
+              #07-54, Paya Lebar Square, <br />
+              Singapore 409051 <br />
+            </p>
           </div>
-          <div class="content-body text-center">
-            <h2 class="footer-heading">Contact Us</h2>
+          <div class="content-body text-white">
+            <h2 class="footer-heading"><span>COMPANY</span></h2>
+            <ul class="content-body no-list">
+              <li>
+                <a href="./index.html">Home</a>
+              </li>
+              <li>
+                <a href="./products.html">Products</a>
+              </li>
+              <li>
+                <a href="./about-us.html">About Us</a>
+              </li>
+              <li>
+                <a href="./contact-us.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="content-body text-white">
+            <h2 class="footer-heading"><span>CONTACT US</span></h2>
             <ul class="content-body no-list">
               <li>Phone: +65 8804 6218</li>
               <li>Email: janice@delifnb.sg</li>
             </ul>
           </div>
         </div>
-        <div class="content-body text-center">
-          <p>Copyright © 2023, Deli Food and Beverage Pte.</p>
+        <div class="content-body text-center text-white">
+          <p>Deli Food and Beverage Pte. Ltd.</p>
         </div>
       </section>
     </footer>
