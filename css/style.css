@@ -68,7 +68,7 @@ body {
   background-image: url(../assets/images/bg.png);
   font-weight: 100;
 
-  cursor: url(../cursor.png), auto;
+  cursor: url(../cursor.svg), auto;
 }
 
 /* header */
@@ -703,4 +703,8 @@ footer {
   border-top: 1px solid black;
   flex: 1;
   min-width: 0px;
+}
+
+.green {
+  color: #95c11f;
 }
