@@ -25,7 +25,7 @@ h4,
 h5,
 h6 {
   line-height: 1.2;
-  font-weight: 500;
+  font-weight: 900;
 }
 
 h1 {
@@ -63,10 +63,11 @@ a {
 }
 
 body {
-  font-family: "EB Garamond", serif;
+  /* font-family: "EB Garamond", serif; */
   /* font-family: "Chivo", sans-serif; */
+  font-family: "Gothic A1", sans-serif;
   background-image: url(../assets/images/bg.png);
-  font-weight: 100;
+  /* font-weight: 100; */
 
   cursor: url(../cursor.svg), auto;
 }
