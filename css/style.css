@@ -714,3 +714,13 @@ footer {
 .footer-logo {
   height: 2rem;
 }
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.footer-item {
+  flex-grow: 1;
+}
