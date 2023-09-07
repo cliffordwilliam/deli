@@ -490,10 +490,10 @@ section.hero {
   display: block;
   width: 100%;
   /* height: 20rem; */
-  object-fit: cover;
+  object-fit: contain;
 
   aspect-ratio: 1 / 1;
-  border-radius: 100%;
+  /* border-radius: 100%; */
   /* border-top-left-radius: 8px;
   border-top-right-radius: 8px; */
 }
@@ -588,10 +588,11 @@ footer {
 }
 
 .footer-heading {
-  height: 48px;
+  height: 2rem;
   display: flex;
-  align-items: flex-end;
-  font-size: 1rem;
+  align-items: flex-start;
+  font-size: 1.9rem;
+  padding-top: 0.2rem;
 }
 
 /* content utils */
@@ -708,4 +709,8 @@ footer {
 
 .green {
   color: #95c11f;
+}
+
+.footer-logo {
+  height: 2rem;
 }
